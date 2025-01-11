@@ -1,10 +1,4 @@
 <div align="center">
-    <a href="https://londonappdeveloper.com" target="_blank">
-        <img src="https://londonappdeveloper.com/wp-content/uploads/2024/11/banner.svg" alt="Banner image" />
-    </a>
-</div>
-
-<div align="center">
     <p>Full-Stack Consulting and Courses.</p>
     <a href="https://londonappdeveloper.com" target="_blank">Website</a> |
     <a href="https://londonappdeveloper.teachable.com/" target="_blank">Courses</a> |
@@ -211,7 +205,7 @@ Configure Git:
 
 ```sh
 git config --global user.email email@example.com
-git config --global user.name "User Name" 
+git config --global user.name "User Name"
 git config --global push.autoSetupRemote true
 ```
 
