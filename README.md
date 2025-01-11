@@ -1,13 +1,3 @@
-<div align="center">
-    <p>Full-Stack Consulting and Courses.</p>
-    <a href="https://londonappdeveloper.com" target="_blank">Website</a> |
-    <a href="https://londonappdeveloper.teachable.com/" target="_blank">Courses</a> |
-    <a href="https://londonappdeveloper.com/tutorials/" target="_blank">Tutorials</a> |
-    <a href="https://londonappdeveloper.com/consulting/" target="_blank">Consulting
-</div>
-
-<br /><br >
-
 # DevOps Deployment Automation with Terraform, AWS and Docker - Starter Code
 
 This project contains the starter code for our course: [DevOps Deployment Automation with Terraform, AWS and Docker](https://londonapp.dev/c3).
