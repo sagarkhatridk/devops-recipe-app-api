@@ -7,3 +7,9 @@ docker-compose run --rm terraform -chdir=setup validate
 docker-compose run --rm terraform -chdir=deploy init
 docker-compose run --rm terraform -chdir=deploy fmt
 docker-compose run --rm terraform -chdir=deploy validate
+
+# Stop All container
+docker stop $(docker ps -q)
+
+# Remove Container
+docker rm $(docker ps -a -q)
