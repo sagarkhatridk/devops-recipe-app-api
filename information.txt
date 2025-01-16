@@ -1,0 +1,9 @@
+aws-vault exec sagarkhatri.demo --duration=8h
+
+docker-compose run --rm terraform -chdir=setup init
+docker-compose run --rm terraform -chdir=setup fmt
+docker-compose run --rm terraform -chdir=setup validate
+
+docker-compose run --rm terraform -chdir=deploy init
+docker-compose run --rm terraform -chdir=deploy fmt
+docker-compose run --rm terraform -chdir=deploy validate
