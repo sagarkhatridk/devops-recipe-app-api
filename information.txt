@@ -14,3 +14,7 @@ docker stop $(docker ps -q)
 
 # Remove Container
 docker rm $(docker ps -a -q)
+
+
+cd_user_access_key_id = "AKIAVJUBQQ7TO3HMKBUG"
+cd_user_access_key_secret = <sensitive>
