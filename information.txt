@@ -4,6 +4,9 @@ docker-compose run --rm terraform -chdir=setup init
 docker-compose run --rm terraform -chdir=setup fmt
 docker-compose run --rm terraform -chdir=setup validate
 docker-compose run --rm terraform -chdir=setup apply
+docker-compose run --rm terraform -chdir=setup output
+docker-compose run --rm terraform -chdir=setup output cd_user_access_key_id
+
 
 docker-compose run --rm terraform -chdir=deploy init
 docker-compose run --rm terraform -chdir=deploy fmt
